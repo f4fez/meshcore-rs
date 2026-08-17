@@ -173,6 +173,7 @@ traffic never triggers it; use `LogData` for general monitoring as above.
 - `send_advert()` - Send advertisement
 - `get_channel()` / `set_channel()` - Get/set channel config
 - `export_private_key()` / `import_private_key()` - Key management
+- `get_core_stats()` / `get_radio_stats()` / `get_packet_stats()` - Device/radio/packet counters (see `examples/node_stats.rs`)
 
 ### Contact Commands
 
